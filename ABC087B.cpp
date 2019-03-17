@@ -13,11 +13,13 @@ int main(){
         for(j=0;j<=b;j++){
             for(k=0;k<=c;k++){
                 sum = 500*i+100*j+50*k;
-                if(sum == x) n++;
+                if(sum == x){
+                    n++;
+                }
             }
         }
     }
 
-    printf("%d",&n);
+    printf("%d",n);
     return 0;
 }

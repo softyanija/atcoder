@@ -4,5 +4,9 @@ int main(){
     int n;
     scanf("%d",n);
     int s[n];
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++){
+        scan("%d",&s[i]);
+    }
+
+
 }
