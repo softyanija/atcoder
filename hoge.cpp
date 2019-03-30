@@ -2,9 +2,7 @@
 using namespace std;
 
 int main(){
-      string s,t;
-      cin>>s;
-      cin>>t;
-      cout<<string(s).compare(t)<<endl;
-      if(! string(s).compare(t)){cout<<"ˆê’v"<<endl;}
+  string s ="abcdef";
+  reverse(s.begin(),s.end());
+  cout<<s;
 }
