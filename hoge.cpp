@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-  string s ="abcdef";
-  reverse(s.begin(),s.end());
-  cout<<s;
+  string str;
+  str = "abcde";
+  cout<<str.length();
 }
